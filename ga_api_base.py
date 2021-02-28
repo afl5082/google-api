@@ -1,30 +1,5 @@
 
 
-"""Simple intro to using the Google Analytics API v3.
-
-This application demonstrates how to use the python client library to access
-Google Analytics data. The sample traverses the Management API to obtain the
-authorized user's first profile ID. Then the sample uses this ID to
-contstruct a Core Reporting API query to return the top 25 organic search
-terms.
-
-Before you begin, you must sigup for a new project in the Google APIs console:
-https://code.google.com/apis/console
-
-Then register the project to use OAuth2.0 for installed applications.
-
-Finally you will need to add the client id, client secret, and redirect URL
-into the client_secrets.json file that is in the same directory as this sample.
-
-Sample Usage:
-
-  $ python hello_analytics_api_v3.py
-
-Also you can also get help on all the command-line flags the program
-understands by running:
-
-  $ python hello_analytics_api_v3.py --help
-"""
 
 from __future__ import print_function
 
